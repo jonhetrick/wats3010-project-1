@@ -73,10 +73,11 @@ ul.page-links {
     text-decoration: none;
 }
 
-.page-links a.hover {
+.page-links a:hover {
     background-color: gray;
     color: white;
 }
+
 
 .page-links .active {
     background-color: #ffbf00;
@@ -186,11 +187,3 @@ nav {
     position: absolute;
     right: 0.50%;
 }
-
-
-
-
-
-
-
-
