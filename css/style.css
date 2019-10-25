@@ -35,6 +35,12 @@ p {
 }
 
 /* Typography */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 3rem;
+}
+
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -163,6 +169,12 @@ nav {
     font-size: 1rem;
 }
 
+.wrapped {
+    display: block;
+    float: left;
+    padding: 5px;
+}
+
 .cta {
     width: 11rem;
     margin: auto;
@@ -176,6 +188,15 @@ nav {
     background: red;
     color: white;
     border-radius: 30px;
+}
+
+footer {
+    background-color: #333;
+    height: 4rem;
+    color: white;
+    padding: 20px;
+    position: relative;
+    width: 100%;
 }
 
 .footer-left {
